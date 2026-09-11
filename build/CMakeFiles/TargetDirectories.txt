@@ -1,0 +1,3 @@
+/Users/admin/Documents/C++/build/CMakeFiles/SDL2Demo.dir
+/Users/admin/Documents/C++/build/CMakeFiles/edit_cache.dir
+/Users/admin/Documents/C++/build/CMakeFiles/rebuild_cache.dir
