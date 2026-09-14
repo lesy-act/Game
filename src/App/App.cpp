@@ -1,11 +1,12 @@
-#include "App.h"    
+#include "App/App.h"   
 
 App* App::instance = nullptr;
 SDL_Renderer* App::renderer = nullptr;
 SDL_Window* App::window = nullptr;
+std::mutex App::mtx; // Initialize the mutex for thread safety
 
 App* App::getInstance() {
-    std::lock_guard<std::mutex> lock(instance->mtx); // Lock the mutex for thread safety
+    std::lock_guard<std::mutex> lock(mtx); // Lock the mutex for thread safety
     if (!instance) {
         instance = new App();
     }
@@ -43,6 +44,7 @@ void App::init() {
         std::cerr << "Failed to create renderer: " << SDL_GetError() << std::endl;
         return;
     }
+    Player::getInstance()->init(); // Initialize the player
 }
 void App::handleEvents(SDL_Event& event) {
     while (SDL_PollEvent(&event)) {
@@ -59,5 +61,6 @@ void App::render() {
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderClear(renderer);
     // Render game objects here
+    Player::getInstance()->render(); // Render the player
     SDL_RenderPresent(renderer);
 }

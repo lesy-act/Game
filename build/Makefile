@@ -129,29 +129,77 @@ SDL2Demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/build
 .PHONY : SDL2Demo/fast
 
-src/App.o: src/App.cpp.o
-.PHONY : src/App.o
+src/App/App.o: src/App/App.cpp.o
+.PHONY : src/App/App.o
 
 # target to build an object file
-src/App.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/App.cpp.o
-.PHONY : src/App.cpp.o
+src/App/App.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o
+.PHONY : src/App/App.cpp.o
 
-src/App.i: src/App.cpp.i
-.PHONY : src/App.i
+src/App/App.i: src/App/App.cpp.i
+.PHONY : src/App/App.i
 
 # target to preprocess a source file
-src/App.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/App.cpp.i
-.PHONY : src/App.cpp.i
+src/App/App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/App/App.cpp.i
+.PHONY : src/App/App.cpp.i
 
-src/App.s: src/App.cpp.s
-.PHONY : src/App.s
+src/App/App.s: src/App/App.cpp.s
+.PHONY : src/App/App.s
 
 # target to generate assembly for a file
-src/App.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/App.cpp.s
-.PHONY : src/App.cpp.s
+src/App/App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/App/App.cpp.s
+.PHONY : src/App/App.cpp.s
+
+src/Player.o: src/Player.cpp.o
+.PHONY : src/Player.o
+
+# target to build an object file
+src/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/Player.cpp.o
+.PHONY : src/Player.cpp.o
+
+src/Player.i: src/Player.cpp.i
+.PHONY : src/Player.i
+
+# target to preprocess a source file
+src/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/Player.cpp.i
+.PHONY : src/Player.cpp.i
+
+src/Player.s: src/Player.cpp.s
+.PHONY : src/Player.s
+
+# target to generate assembly for a file
+src/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/Player.cpp.s
+.PHONY : src/Player.cpp.s
+
+src/Texturemanager/TextureManager.o: src/Texturemanager/TextureManager.cpp.o
+.PHONY : src/Texturemanager/TextureManager.o
+
+# target to build an object file
+src/Texturemanager/TextureManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o
+.PHONY : src/Texturemanager/TextureManager.cpp.o
+
+src/Texturemanager/TextureManager.i: src/Texturemanager/TextureManager.cpp.i
+.PHONY : src/Texturemanager/TextureManager.i
+
+# target to preprocess a source file
+src/Texturemanager/TextureManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.i
+.PHONY : src/Texturemanager/TextureManager.cpp.i
+
+src/Texturemanager/TextureManager.s: src/Texturemanager/TextureManager.cpp.s
+.PHONY : src/Texturemanager/TextureManager.s
+
+# target to generate assembly for a file
+src/Texturemanager/TextureManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2Demo.dir/build.make CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.s
+.PHONY : src/Texturemanager/TextureManager.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SDL2Demo"
-	@echo "... src/App.o"
-	@echo "... src/App.i"
-	@echo "... src/App.s"
+	@echo "... src/App/App.o"
+	@echo "... src/App/App.i"
+	@echo "... src/App/App.s"
+	@echo "... src/Player.o"
+	@echo "... src/Player.i"
+	@echo "... src/Player.s"
+	@echo "... src/Texturemanager/TextureManager.o"
+	@echo "... src/Texturemanager/TextureManager.i"
+	@echo "... src/Texturemanager/TextureManager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

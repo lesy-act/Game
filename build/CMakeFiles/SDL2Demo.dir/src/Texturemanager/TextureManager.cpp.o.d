@@ -1,7 +1,6 @@
-CMakeFiles/SDL2Demo.dir/src/App.cpp.o: \
-  /Users/admin/Documents/C++/src/App.cpp \
-  /Users/admin/Documents/C++/include/App.h \
-  /Users/admin/Documents/C++/include/TextureManager.h \
+CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o: \
+  /Users/admin/Documents/C++/src/Texturemanager/TextureManager.cpp \
+  /Users/admin/Documents/C++/include/Texturemanager/TextureManager.h \
   /opt/homebrew/include/SDL2/SDL.h /opt/homebrew/include/SDL2/SDL_main.h \
   /opt/homebrew/include/SDL2/SDL_stdinc.h \
   /opt/homebrew/include/SDL2/SDL_config.h \
@@ -868,9 +867,6 @@ CMakeFiles/SDL2Demo.dir/src/App.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wbuffer_convert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /opt/homebrew/include/SDL2/SDL_image.h \
-  /Users/admin/Documents/C++/include/Player.h \
-  /Users/admin/Documents/C++/include/ICharacter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
@@ -886,4 +882,5 @@ CMakeFiles/SDL2Demo.dir/src/App.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /opt/homebrew/include/SDL2/SDL_image.h

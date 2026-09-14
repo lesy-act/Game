@@ -86,34 +86,67 @@ CMakeFiles/SDL2Demo.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDL2Demo.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Documents/C++/src/main.cpp -o CMakeFiles/SDL2Demo.dir/src/main.cpp.s
 
-CMakeFiles/SDL2Demo.dir/src/App.cpp.o: CMakeFiles/SDL2Demo.dir/flags.make
-CMakeFiles/SDL2Demo.dir/src/App.cpp.o: /Users/admin/Documents/C++/src/App.cpp
-CMakeFiles/SDL2Demo.dir/src/App.cpp.o: CMakeFiles/SDL2Demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/admin/Documents/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SDL2Demo.dir/src/App.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDL2Demo.dir/src/App.cpp.o -MF CMakeFiles/SDL2Demo.dir/src/App.cpp.o.d -o CMakeFiles/SDL2Demo.dir/src/App.cpp.o -c /Users/admin/Documents/C++/src/App.cpp
+CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o: CMakeFiles/SDL2Demo.dir/flags.make
+CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o: /Users/admin/Documents/C++/src/App/App.cpp
+CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o: CMakeFiles/SDL2Demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/admin/Documents/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o -MF CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o.d -o CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o -c /Users/admin/Documents/C++/src/App/App.cpp
 
-CMakeFiles/SDL2Demo.dir/src/App.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDL2Demo.dir/src/App.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Documents/C++/src/App.cpp > CMakeFiles/SDL2Demo.dir/src/App.cpp.i
+CMakeFiles/SDL2Demo.dir/src/App/App.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDL2Demo.dir/src/App/App.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Documents/C++/src/App/App.cpp > CMakeFiles/SDL2Demo.dir/src/App/App.cpp.i
 
-CMakeFiles/SDL2Demo.dir/src/App.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDL2Demo.dir/src/App.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Documents/C++/src/App.cpp -o CMakeFiles/SDL2Demo.dir/src/App.cpp.s
+CMakeFiles/SDL2Demo.dir/src/App/App.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDL2Demo.dir/src/App/App.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Documents/C++/src/App/App.cpp -o CMakeFiles/SDL2Demo.dir/src/App/App.cpp.s
+
+CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o: CMakeFiles/SDL2Demo.dir/flags.make
+CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o: /Users/admin/Documents/C++/src/Texturemanager/TextureManager.cpp
+CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o: CMakeFiles/SDL2Demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/admin/Documents/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o -MF CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o.d -o CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o -c /Users/admin/Documents/C++/src/Texturemanager/TextureManager.cpp
+
+CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Documents/C++/src/Texturemanager/TextureManager.cpp > CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.i
+
+CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Documents/C++/src/Texturemanager/TextureManager.cpp -o CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.s
+
+CMakeFiles/SDL2Demo.dir/src/Player.cpp.o: CMakeFiles/SDL2Demo.dir/flags.make
+CMakeFiles/SDL2Demo.dir/src/Player.cpp.o: /Users/admin/Documents/C++/src/Player.cpp
+CMakeFiles/SDL2Demo.dir/src/Player.cpp.o: CMakeFiles/SDL2Demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/admin/Documents/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SDL2Demo.dir/src/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDL2Demo.dir/src/Player.cpp.o -MF CMakeFiles/SDL2Demo.dir/src/Player.cpp.o.d -o CMakeFiles/SDL2Demo.dir/src/Player.cpp.o -c /Users/admin/Documents/C++/src/Player.cpp
+
+CMakeFiles/SDL2Demo.dir/src/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDL2Demo.dir/src/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Documents/C++/src/Player.cpp > CMakeFiles/SDL2Demo.dir/src/Player.cpp.i
+
+CMakeFiles/SDL2Demo.dir/src/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDL2Demo.dir/src/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Documents/C++/src/Player.cpp -o CMakeFiles/SDL2Demo.dir/src/Player.cpp.s
 
 # Object files for target SDL2Demo
 SDL2Demo_OBJECTS = \
 "CMakeFiles/SDL2Demo.dir/src/main.cpp.o" \
-"CMakeFiles/SDL2Demo.dir/src/App.cpp.o"
+"CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o" \
+"CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o" \
+"CMakeFiles/SDL2Demo.dir/src/Player.cpp.o"
 
 # External object files for target SDL2Demo
 SDL2Demo_EXTERNAL_OBJECTS =
 
 SDL2Demo: CMakeFiles/SDL2Demo.dir/src/main.cpp.o
-SDL2Demo: CMakeFiles/SDL2Demo.dir/src/App.cpp.o
+SDL2Demo: CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o
+SDL2Demo: CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o
+SDL2Demo: CMakeFiles/SDL2Demo.dir/src/Player.cpp.o
 SDL2Demo: CMakeFiles/SDL2Demo.dir/build.make
 SDL2Demo: /opt/homebrew/lib/libSDL2-2.0.0.dylib
+SDL2Demo: /opt/homebrew/Cellar/sdl2_image/2.8.12_1/lib/libSDL2_image.dylib
 SDL2Demo: CMakeFiles/SDL2Demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/admin/Documents/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SDL2Demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/admin/Documents/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable SDL2Demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2Demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/admin/Documents/C++/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/SDL2
+CXX_INCLUDES = -I/Users/admin/Documents/C++/include -isystem /opt/homebrew/include -isystem /opt/homebrew/include/SDL2 -isystem /opt/homebrew/Cellar/sdl2_image/2.8.12_1/include/SDL2
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 

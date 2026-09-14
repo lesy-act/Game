@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/admin/Documents/C++/src/App.cpp" "CMakeFiles/SDL2Demo.dir/src/App.cpp.o" "gcc" "CMakeFiles/SDL2Demo.dir/src/App.cpp.o.d"
+  "/Users/admin/Documents/C++/src/App/App.cpp" "CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o" "gcc" "CMakeFiles/SDL2Demo.dir/src/App/App.cpp.o.d"
+  "/Users/admin/Documents/C++/src/Player.cpp" "CMakeFiles/SDL2Demo.dir/src/Player.cpp.o" "gcc" "CMakeFiles/SDL2Demo.dir/src/Player.cpp.o.d"
+  "/Users/admin/Documents/C++/src/Texturemanager/TextureManager.cpp" "CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o" "gcc" "CMakeFiles/SDL2Demo.dir/src/Texturemanager/TextureManager.cpp.o.d"
   "/Users/admin/Documents/C++/src/main.cpp" "CMakeFiles/SDL2Demo.dir/src/main.cpp.o" "gcc" "CMakeFiles/SDL2Demo.dir/src/main.cpp.o.d"
   )
 
